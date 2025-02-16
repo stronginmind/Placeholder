@@ -34,7 +34,7 @@ jobs:
           pnpm build:dev
 
       - name: Upload Artifacts 📁
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4
         with:
           # this should match the `pages` option in your adapter-static options
           path: "build/"
