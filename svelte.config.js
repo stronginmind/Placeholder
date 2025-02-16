@@ -16,7 +16,7 @@ const config = {
 			strict: true
 		}),
     paths: {
-			base: process.argv.includes('dev') ? '' : 'getautomated.uk'
+			base: 'getautomated.uk'
 		},
     prerender: {
       handleHttpError: 'warn'
