@@ -16,7 +16,7 @@ const config = {
 			strict: true
 		}),
     paths: {
-			base: 'getautomated.uk'
+			base: ''
 		},
     prerender: {
       handleHttpError: 'warn'
