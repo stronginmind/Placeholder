@@ -16,7 +16,7 @@ const config = {
 			strict: true
 		}),
     paths: {
-			base: 'sronginmind.com'
+			base: 'stronginmind.com'
 		},
     prerender: {
       handleHttpError: 'warn'
