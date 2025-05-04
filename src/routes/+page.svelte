@@ -638,7 +638,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
  @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
-.hero img {
+.banim img {
 	width: 100%;
 	height: 30vh; /* Adjust this value to make the image smaller */
 	object-fit: cover;
