@@ -98,8 +98,8 @@
 										<p>— Napoleon Hill</p>
 									</div>
 									<div class="meta">
-										<time class="published" datetime="2015-11-01">November 1, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+										<time class="published" datetime="2015-11-01">May 4th 2025</time>
+										<a href="#" class="author"><span class="name">Brandon Germain</span><img src="images/avatar.jpg" alt="" /></a>
 									</div>
 								</header>
 								<a href="/single" class="banim"><img src="/banner.jpg" alt="Banner Image" /></a>
@@ -125,7 +125,7 @@
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-10-25">October 25, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+										<a href="#" class="author"><span class="name">Brandon Germain</span><img src="images/avatar.jpg" alt="" /></a>
 									</div>
 								</header>
 								<a href="single.html" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
@@ -151,7 +151,7 @@
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-10-22">October 22, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+										<a href="#" class="author"><span class="name">Brandon Germain</span><img src="images/avatar.jpg" alt="" /></a>
 									</div>
 								</header>
 								<a href="single.html" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
@@ -178,7 +178,7 @@
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-10-18">October 18, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+										<a href="#" class="author"><span class="name">Brandon Germain</span><img src="images/avatar.jpg" alt="" /></a>
 									</div>
 								</header>
 
