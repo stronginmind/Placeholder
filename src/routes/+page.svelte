@@ -94,8 +94,8 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="single.html">Magna sed adipiscing</a></h2>
-										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+										<h2><a href="single.html">The body achieves what the mind believes.</a></h2>
+										<p>— Napoleon Hill</p>
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-11-01">November 1, 2015</time>
@@ -496,7 +496,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<section id="intro">
 								<a href="#" class="logo"><img src="images/logo.jpg" alt="" /></a>
 								<header>
-									<h2>Future Imperfect</h2>
+									<h2>Strong In Mind</h2>
 									<p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
 								</header>
 							</section>
@@ -638,11 +638,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
  @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
-/*
-	Future Imperfect by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
