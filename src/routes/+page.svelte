@@ -102,7 +102,7 @@
 										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
 									</div>
 								</header>
-								<a href="/single" class="image featured"><img src="/banner.jpg" alt="Banner Image" /></a>
+								<a href="/single" class="banim"><img src="/banner.jpg" alt="Banner Image" /></a>
 								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
 								<footer>
 									<ul class="actions">
@@ -497,7 +497,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<a href="#" class="logo"><img src="images/logo.jpg" alt="" /></a>
 								<header>
 									<h2>Strong In Mind</h2>
-									<p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+									<p>Build resilience in body and mind.</a></p>
 								</header>
 							</section>
 
@@ -637,6 +637,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 <style>
  @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
+
+.hero img {
+	width: 100%;
+	height: 30vh; /* Adjust this value to make the image smaller */
+	object-fit: cover;
+	}
+
+
 
 
 html, body, div, span, applet, object,
