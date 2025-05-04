@@ -494,7 +494,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 						<!-- Intro -->
 							<section id="intro">
-								<a href="#" class="logo"><img src="images/logo.jpg" alt="" /></a>
+								<a href="#" class="logo"><img src="/logo.jpg" alt="" /></a>
 								<header>
 									<h2>Strong In Mind</h2>
 									<p><a>Build resilience in body and mind.</a></p>
