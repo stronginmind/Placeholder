@@ -9,58 +9,46 @@
 
     <style>
         /* General Styles */
-        body.single #footer { text-align: center; }
-        #intro header p { font-size: 0.8em; }
-        #footer .icons, #footer .copyright { color: #aaaaaa; }
+        body, html { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        #footer .icons, #footer .copyright { color: #aaa; }
         #footer .copyright { font-family: "Raleway", Helvetica, sans-serif; font-size: 0.5em; font-weight: 400; letter-spacing: 0.25em; text-transform: uppercase; }
+        body.single #footer { text-align: center; }
+
+        /* Intro Section */
+        #intro { text-align: center; margin: 0 0 3em 0; }
+        #intro header p { font-size: 0.8em; }
+        #intro header h2 { font-size: 2.5em; }
 
         /* Menu */
         #menu {
             transform: translateX(25em);
             transition: transform 0.5s ease, visibility 0.5s;
+            position: fixed; top: 0; right: 0; width: 25em; height: 100%;
+            background: #fff; visibility: hidden; z-index: 10002;
+            border-left: 1px solid rgba(160, 160, 160, 0.3); box-shadow: none;
             -webkit-overflow-scrolling: touch;
-            background: #fff;
-            border-left: 1px solid rgba(160,160,160,0.3);
-            box-shadow: none;
-            height: 100%;
-            width: 25em;
-            position: fixed;
-            top: 0;
-            right: 0;
-            visibility: hidden;
-            z-index: 10002;
         }
-
-        #menu > * { padding: 3em; border-top: 1px solid rgba(160,160,160,0.3); }
-        #menu > * > :last-child { margin-bottom: 0; }
-        #menu > :first-child { border-top: 0; }
+        #menu > * { padding: 3em; border-top: 1px solid rgba(160, 160, 160, 0.3); }
         #menu .links { list-style: none; padding: 0; }
-        #menu .links > li {
-            margin-top: 1.5em;
-            padding-top: 1.5em;
-            border-top: 1px dotted rgba(160,160,160,0.3);
-        }
+        #menu .links > li { padding-top: 1.5em; margin-top: 1.5em; border-top: 1px dotted rgba(160,160,160,0.3); }
         #menu .links > li a { display: block; }
         #menu .links > li a h3 { font-size: 0.7em; transition: color 0.2s ease; }
-        #menu .links > li a p { font-family: "Raleway", Helvetica, sans-serif; font-size: 0.6em; letter-spacing: 0.25em; text-transform: uppercase; margin-bottom: 0; }
+        #menu .links > li a p { font-size: 0.6em; letter-spacing: 0.25em; text-transform: uppercase; margin-bottom: 0; }
         #menu .links > li a:hover h3 { color: #2ebaae; }
-        body.is-menu-visible #menu { transform: translateX(0); visibility: visible; }
 
-        /* Responsive Design */
+        /* Media Queries */
         @media (max-width: 1280px) {
-            #intro { margin-bottom: 3em; text-align: center; }
             #intro header h2 { font-size: 2em; }
             #intro header p { font-size: 0.7em; }
         }
-        
-        @media (max-width: 736px) {
-            #intro { margin-bottom: 1.5em; padding: 1.25em 0; }
-            #intro > :last-child { margin-bottom: 0; }
-            #intro .logo { margin-bottom: 0.5em; }
-            #intro header h2 { font-size: 1.25em; }
 
+        @media (max-width: 736px) {
+            #intro { margin: 0 0 1.5em 0; padding: 1.25em 0; }
+            #intro header h2 { font-size: 1.25em; }
             #menu > * { padding: 1.5em; }
         }
+
+        body.is-menu-visible #menu { transform: translateX(0); visibility: visible; }
     </style>
 </head>
 
